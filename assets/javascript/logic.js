@@ -33,9 +33,9 @@ $(document).ready(function(){
       event.preventDefault();
       var submitAnimal = $("#animal-input").val().trim();
       if (submitAnimal!==""){
-      gifObj.topics.push(submitAnimal);
+      gif.topics.push(submitAnimal);
       $('button.animal').remove();
-      gifObj.getTopicButtons();
+      gif.getTopicButtons();
     }
    });
 
